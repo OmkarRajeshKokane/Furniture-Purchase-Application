@@ -33,3 +33,4 @@ To run application:
    java -classpath ".;path\mysql-connector-java-8.0.21.jar" javaApplication
 
 ########################################################################
+MAKE SURE TO ADD YOUR DATABASE URL,NAME AND PASSWORD BEFORE IMPLEMENTING THE CODE 
