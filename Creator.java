@@ -10,7 +10,7 @@ public class Creator{
         try{
             Class.forName("com.mysql.jdbc.Driver");
             
-            try(Connection con = DriverManager.getConnection("jdbc:mysql://sql12.freesqldatabase.com:3306/sql12371159","sql12371159","2hq7cvQ8S1"))
+            try(Connection con = DriverManager.getConnection("Database_connection:-URL","Username _for_database","Password"))
             {
                 Statement stmt=con.createStatement();
                 String[] los = {"Chair", "DiningTable", "Sofa", "Bed", "Wardrobe"};
